@@ -1,0 +1,24 @@
+{
+   "articles":[
+      {
+         "title":"Welcome to Test Feast 2024",
+         "slug":"QAAutomation Labs",
+         "body":"QAAutomationLabs.com",
+         "createdAt":"2024-09-01T03:18:26.635Z",
+         "updatedAt":"2024-09-10T03:18:26.635Z",
+         "tagList":[
+           
+         ],
+         "description":"Nigeria Software Testing Qualification Board",
+         "author":{
+            "username":"Kailash Pathak",
+            "bio":null,
+            "image":"https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following":false
+         },
+         "favorited":false,
+         "favoritesCount":200
+      }
+   ],
+   "articlesCount":200
+}

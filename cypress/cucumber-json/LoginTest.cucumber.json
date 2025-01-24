@@ -1,0 +1,84 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I want to login into the site with valid data",
+    "line": 1,
+    "id": "i-want-to-login-into-the-site-with-valid-data",
+    "tags": [],
+    "uri": "LoginTest.feature",
+    "elements": [
+      {
+        "id": "i-want-to-login-into-the-site-with-valid-data;login-as-new-sign-up-user-with-valid-data",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login as new sign up user with valid data",
+        "tags": [
+          {
+            "name": "@SanityTest",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "validpassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lambdatest@yopmail.com",
+                      "lambdatest"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I entered valid credential",
+            "result": {
+              "status": "passed",
+              "duration": 709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Validate the title after login",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
